@@ -1,0 +1,42 @@
+header {
+    img {
+        width: 100px;
+        border-radius: 35px;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    h1 {
+        text-align: center;
+        color: $bordo_principal;
+    }
+}
+
+nav {
+    text-align: center;
+
+    ul {
+        li {
+            display: inline-block;
+            margin: 3%;
+            margin-bottom: 0;
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.3);
+                transition: 0.3s;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: chocolate;
+        text-shadow: 1px 1px 8px white;
+
+        &:hover {
+            color: $bordo_principal;
+        }
+    }
+}

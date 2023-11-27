@@ -1,0 +1,33 @@
+#form_contacto {
+    width: 40%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+#form_contacto label,
+input,
+textarea {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3%;
+    color: $bordo_principal;
+    width: 50%;
+}
+
+#contenedor_botones {
+    display: flex;
+    margin-top: 8%;
+}
+
+.boton_contacto {
+    color: $bordo_principal;
+    border-color: $bordo_principal;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,38 @@
+article {
+    .seccion1 {
+        display: flex;
+        margin: 8% 10%;
+        text-align: right;
+
+        p {
+            margin-left: 3%;
+            color: $bordo_principal;
+        }
+
+        .foto1 {
+            width: 45%;
+            height: 45%;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+    }
+
+    .seccion2 {
+        display: flex;
+        margin: 8% 10%;
+        text-align: left;
+
+        p {
+            margin-right: 3%;
+            color: $bordo_principal;
+        }
+
+        .foto2 {
+            width: 40%;
+            height: 40%;
+            border-radius: 30px;
+            cursor: pointer;
+            object-fit: contain;
+        }
+    }
+}

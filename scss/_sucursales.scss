@@ -1,0 +1,23 @@
+#main_sucursales {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    @include centrar;
+}
+
+#h3_sucursales {
+    margin-top: 3%;
+    text-align: center;
+    color: $bordo_principal;
+}
+
+.mapita {
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.section_sucursales {
+    margin: 0 5%;
+    color: $bordo_principal;
+}

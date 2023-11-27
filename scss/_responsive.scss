@@ -1,0 +1,78 @@
+@media (max-width: 700px) {
+
+    /* -----  Principal ----- */
+    header img {
+        display: none;
+    }
+
+    .linea {
+        display: none;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    nav a {
+        margin: 0px 10px;
+    }
+
+    /* -----  Home ----- */
+    article .seccion1 {
+        flex-wrap: wrap;
+        // text-align: center;
+        // justify-content: center;
+        @include centrar;
+        margin-top: 12%;
+    }
+
+    article .seccion1 .foto1 {
+        width: 70%;
+    }
+
+    article .seccion2 {
+        flex-wrap: wrap-reverse;
+        // text-align: center;
+        // justify-content: center;
+        @include centrar;
+    }
+
+    article .seccion2 p {
+        margin-right: 0;
+        color: $bordo_principal;
+    }
+
+    article .seccion2 .foto2 {
+        width: 70%;
+    }
+
+    /* -----  Sucursales ----- */
+    #main_sucursales {
+        flex-wrap: wrap;
+    }
+
+    #h3_sucursales {
+        margin-top: 10%;
+    }
+
+    .mapita {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    /* -----  Preguntas Frecuentes ----- */
+    .section_frecuentes {
+        margin-top: 10%;
+        font-size: 0.9rem;
+    }
+
+    /* -----  Contacto ----- */
+    #form_contacto {
+        width: 75%;
+    }
+
+    .linea {
+        display: none;
+    }
+}

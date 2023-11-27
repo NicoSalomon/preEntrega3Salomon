@@ -1,0 +1,26 @@
+#main_productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+
+    img {
+        width: 120px;
+        height: 80px;
+        margin: 50px;
+    }
+}
+
+.container {
+    a {
+        text-decoration: none;
+        color: $bordo_principal;
+
+        &:hover {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+}
